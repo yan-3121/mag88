@@ -10,6 +10,7 @@ html {
 
 body {
     font-family: Arial、Hiragino Sans、Hiragino Kaku Gothic ProN、Meiryo、sans-serif;
+    color: #24292E;
 }
 
 h1 , h2 , p {
@@ -25,6 +26,14 @@ h1 , h2 , p {
     font-size: 1.71428571rem;
     line-height: 1.16666667;
     margin: 80px 0 20px 0;
+}
+
+.btn {
+    display: inline-block;
+    border: 1px solid #24292E;
+    padding: 13px 35px;
+    font-size: .85714286rem;
+    line-height: 1.5;
 }
 
 /*
@@ -119,4 +128,35 @@ contents
 
 /*
 //contents
+*/
+
+/*
+fashion
+*/
+.fashion {
+    padding-top: 35px;
+    padding-bottom: 280px;
+    margin-bottom: 50px;
+    background-image: url(../img/fashion.jpg);
+    background-position: center top;
+    background-size: cover;
+}
+
+.fashion__btn  {
+    margin-top: 30px;
+}
+
+/*
+//fashion
+*/
+
+/*
+catalog
+*/
+.catalog {
+    background-color: #F5F5F5;
+}
+
+/*
+//catalog
 */
